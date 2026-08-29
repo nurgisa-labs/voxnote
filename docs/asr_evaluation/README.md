@@ -27,6 +27,13 @@ The example manifest contains synthetic text only. Keep real meeting audio and
 human gold transcripts outside version control unless their sharing terms have
 been reviewed.
 
+`stage0-manifest.template.json` is the durable selection skeleton for the current
+KK/RU/EN benchmark plan. It intentionally contains empty `gold_text` values and
+must fail evaluator validation until every selected clip has a human-verified
+reference. Copy it to a run directory outside version control, fill only the
+approved corpus items, remove unused slots, review `key_terms`, then record the
+frozen manifest SHA-256. Do not add audio paths or source media to the manifest.
+
 ## Contracts
 
 The corpus manifest and provider result files are JSON with `schema_version: 1`.
