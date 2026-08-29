@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "template_status": "not_ready_for_scoring",
+  "instructions": "Fill every selected gold_text with a human-verified reference, remove unused slots, and review key_terms before freezing a run manifest.",
+  "items": [
+    {
+      "id": "kk-clean-001",
+      "gold_text": "",
+      "languages": ["kk"],
+      "tags": ["kk-clean", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "kk-clean-002",
+      "gold_text": "",
+      "languages": ["kk"],
+      "tags": ["kk-clean", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "kk-clean-003",
+      "gold_text": "",
+      "languages": ["kk"],
+      "tags": ["kk-clean", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "ru-clean-001",
+      "gold_text": "",
+      "languages": ["ru"],
+      "tags": ["ru-clean", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "ru-clean-002",
+      "gold_text": "",
+      "languages": ["ru"],
+      "tags": ["ru-clean", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "en-clean-001",
+      "gold_text": "",
+      "languages": ["en"],
+      "tags": ["en-clean", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "en-clean-002",
+      "gold_text": "",
+      "languages": ["en"],
+      "tags": ["en-clean", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "kk-ru-switch-001",
+      "gold_text": "",
+      "languages": ["kk", "ru"],
+      "tags": ["kk-ru-code-switch", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "kk-ru-switch-002",
+      "gold_text": "",
+      "languages": ["kk", "ru"],
+      "tags": ["kk-ru-code-switch", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "kk-ru-switch-003",
+      "gold_text": "",
+      "languages": ["kk", "ru"],
+      "tags": ["kk-ru-code-switch", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "multi-switch-001",
+      "gold_text": "",
+      "languages": ["kk", "ru", "en"],
+      "tags": ["kk-ru-en-code-switch", "domain-terms", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "multi-switch-002",
+      "gold_text": "",
+      "languages": ["kk", "ru", "en"],
+      "tags": ["kk-ru-en-code-switch", "domain-terms", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "kk-noisy-far-001",
+      "gold_text": "",
+      "languages": ["kk"],
+      "tags": ["kk", "noisy", "far-field", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "ru-noisy-far-001",
+      "gold_text": "",
+      "languages": ["ru"],
+      "tags": ["ru", "noisy", "far-field", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "kk-quiet-001",
+      "gold_text": "",
+      "languages": ["kk"],
+      "tags": ["kk", "quiet", "quiet-rescue-candidate", "original"],
+      "key_terms": []
+    },
+    {
+      "id": "ru-quiet-001",
+      "gold_text": "",
+      "languages": ["ru"],
+      "tags": ["ru", "quiet", "quiet-rescue-candidate", "original"],
+      "key_terms": []
+    }
+  ]
+}
